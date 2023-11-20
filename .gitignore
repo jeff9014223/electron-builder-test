@@ -4,5 +4,7 @@ node_modules/
 /dist
 dist/
 
+electron-builder.yml
 package-lock.json
 .DS_Store
+*.env

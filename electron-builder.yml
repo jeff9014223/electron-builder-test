@@ -7,7 +7,11 @@ win:
 
   publish:
     - provider: github
-      protocol: ssh
+      protocol: https
+      owner: ${GH_OWNER}
+      repo: ${GH_REPO}
+      token: ${GH_TOKEN}
+
 
 mac:
   target:
@@ -21,4 +25,7 @@ mac:
 
   publish:
     - provider: github
-      protocol: ssh
+      protocol: https
+      owner: ${env.GH_OWNER}
+      repo: ${env.GH_REPO}
+      token: ${env.GH_TOKEN}
