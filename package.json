@@ -1,0 +1,15 @@
+{
+  "name": "test-app",
+  "main": "main.js",
+  "description": "Test app in electron",
+  "author": "Jeff9014223",
+  "version": "0.0.1",
+  "devDependencies": {
+    "electron": "^27.1.0",
+    "electron-builder": "^24.6.4"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build -mw"
+  }
+}
