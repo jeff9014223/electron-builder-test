@@ -3,7 +3,7 @@ const { app, BrowserWindow } = require("electron")
 const path = require("node:path")
 
 updateElectronApp({
-    repo: "https://github.com/jeff9014223/electron-builder-test",
+    repo: "jeff9014223/electron-builder-test",
     updateInterval: "5 minutes",
 })
 
