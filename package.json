@@ -11,5 +11,8 @@
   "scripts": {
     "start": "electron .",
     "publish": "electron-builder build -mw --publish always"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
