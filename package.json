@@ -3,7 +3,7 @@
   "main": "main.js",
   "description": "Test app in electron",
   "author": "Jeff9014223",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "devDependencies": {
     "electron": "^27.1.0",
     "electron-builder": "^24.6.4",
