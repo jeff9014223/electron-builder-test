@@ -8,10 +8,9 @@ win:
   publish:
     - provider: github
       protocol: https
-      owner: ${GH_OWNER}
-      repo: ${GH_REPO}
-      token: ${GH_TOKEN}
-
+      owner: ${env.GH_OWNER}
+      repo: ${env.GH_REPO}
+      token: ${env.GH_TOKEN}
 
 mac:
   target:
@@ -29,3 +28,5 @@ mac:
       owner: ${env.GH_OWNER}
       repo: ${env.GH_REPO}
       token: ${env.GH_TOKEN}
+
+artifactName: '${productName}-${version}-${os}-${arch}.${ext}'
